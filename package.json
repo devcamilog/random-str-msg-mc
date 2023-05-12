@@ -1,0 +1,28 @@
+{
+  "name": "random-str-msg-mc",
+  "version": "1.0.0",
+  "description": "Random String Message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devcamilog/random-str-msg-mc.git"
+  },
+  "keywords": [],
+  "author": "Camilo Guzman <camilo.626@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devcamilog/random-str-msg-mc/issues"
+  },
+  "homepage": "https://github.com/devcamilog/random-str-msg-mc#readme",
+  "bin": {
+    "random-str-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1",
+    "user": "0.0.0"
+  }
+}
